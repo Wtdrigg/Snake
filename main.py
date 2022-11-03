@@ -1,3 +1,5 @@
+from snake import Snake
+
 if __name__ == '__main__':
 
-    pass
+    Snake()
