@@ -13,7 +13,7 @@ class Tail(pg.Rect):
 class Snake:
 
     def __init__(self):
-        self.FPS = 6
+        self.FPS = 10
         self.screen = pg.display.set_mode((500, 500))
         self.auto_move = False
         self.game_over_screen = False
